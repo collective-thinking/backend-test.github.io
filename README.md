@@ -3,7 +3,7 @@
 Fork le repository 
 
 
-La partie quesions se découpe en deux parties disposées dans le dossier `test/`: 
+La partie questions se découpe en deux parties disposées dans le dossier `test/`: 
  - L'une en PHP, dans laquelle vous devez répondre au questions présentes dans questions.md
   dans le fichier answer.txt.
  - L'autre en MySQL. Ici aussi, il faut répondre aux questions présentes questions.md dans answer.txt
@@ -16,7 +16,9 @@ Chaque exercice est dans son dossier respectif, il comprend :
  (procédure ci dessous) mais cela n'est pas obligatoire.
 
 
-**Le but ici est de faire 3 exercices de votre choix parmis ceux proposés**
+## Important
+
+**Le but ici est de faire 3 exercices de votre choix parmi ceux proposés**
 
 **La durée de ce test ne devrait pas dépasser 1h30**
 
