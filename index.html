@@ -25,6 +25,31 @@
 
     <div class="row" id="content">
       <div class="medium-8 columns">
+          <h2 id="sql">SQL</h2>
+          <div class="blog-post">
+            <h3>1. Requêtages SQL</h3>
+            <img class="thumbnail" src="images/schema-sql.jpg">
+            <p>a/ Ecrivez la requête qui permet de récupérer les séjours qui ont des prédictions ordonnées par leur score décroissant et dont les dates de softDelete (deleted_at) sont NULL.</p>
+            <p>b/ Ecrivez la requête qui permet de compter le nombre de documents par type de documents (même ceux qui n’en ont pas) et dont les dates de softDelete (deleted_at) sont NULL.</p>
+            <p>c/ Ecrivez la requête qui permet de récupérer un séjour qui a une prédiction et dont la date de sortie (end_date) est comprise entre le début et la fin de cette année et dont les dates de softDelete (deleted_at) sont NULL, limiter le nombre de résultat à 50.</p>
+            <p>d/ Ecrivez la requête qui permet de récupérer les identifiants de séjour (stay_id) qui ont au moins 2 documents et dont les dates de softDelete (deleted_at) sont NULL.</p>
+            <p>e/ Ecrivez la requête qui permet de récupérer le nombre de documents moyen par séjour.</p>
+            <p>f/ Ecrivez la requête qui permet de récupérer les identifiants de séjour (stay_id) et les dates de séjour (start_date, end_date) qui ont un identifiant de séjour qui commence par 192 OU qui qui ont une date de sortie avant la fin de cette année et dont les dates de softDelete (deleted_at) sont NULL.</p>
+          </div>
+        
+          <div class="blog-post">
+            <h3>2. Architecture SQL</h3>
+            <img class="thumbnail" src="images/schema-sql-colonne.jpg">
+            <p>
+              <pre>  SELECT first_name,last_name,gender,ipp FROM patient WHERE gender = ‘male’;</pre>
+              <br>
+              Considérant le schéma et la requête ci-dessus, quelles optimisations sont possibles pour améliorer la rapidité de la requête.
+            </p>
+          </div>
+        
+          <div class="blog-post">
+            <h3>3. Ecrivez une liste d'optimisations SQL</h3>
+          </div>
         <h2 id="php">PHP</h2>
         
         <div class="blog-post">
@@ -34,7 +59,7 @@
             <pre>  $arr = []; 
   $arr[8] = 'test';
               
-  1 / 8 / 9</pre>  
+  Réponse : 1 / 8 / 9</pre>  
           </p>
         </div>
         
@@ -48,7 +73,7 @@
   $b = new B();
   $c = $b;
 
-  1 / 2 / 3</pre>
+  Réponse : 1 / 2 / 3</pre>
           </p>
         </div>
       
@@ -60,11 +85,11 @@
         </div>
       
         <div class="blog-post">
-          <h3>4. Practices</h3>
-          <p>Réalisez autant d'exercices que possible durant le temps imparti, selon l'ordre de votre choix</p>
+          <h3>4. Exercices</h3>
+          <p>Réalisez 3 exercices parmi les choix possibles</p>
           <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/bob">Bob</a> <small>medium</small></p>
           <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/flatten-array">Flatten Array</a> <small>easy</small></p>
-          <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/luhn">Luhn</a> <small>luhn</small></p>
+          <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/luhn">Luhn</a> <small>medium</small></p>
           <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/scrabble-score">Scrabble score</a> <small>easy</small></p>
           <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/run-length-encoding">Run Length Encoding</a> <small>medium</small></p>
           <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/matching-breackets">Matching brackets</a> <small>easy</small></p>
@@ -74,39 +99,15 @@
           <p><a href="https://github.com/collective-thinking/php/tree/master/exercises/beer-song">Beer song</a> <small>easy</small></p>
         </div>
       
-        <h2 id="sql">SQL</h2>
-        <div class="blog-post">
-          <h3>1. Requêtages SQL</h3>
-          <img class="thumbnail" src="images/schema-sql.jpg">
-          <p>a/ Ecrivez la requête qui permet de récupérer les séjours qui ont des prédictions ordonnées par leur score décroissant et dont les dates de softDelete (deleted_at) sont NULL.</p>
-          <p>b/ Ecrivez la requête qui permet de compter le nombre de documents par type de documents (même ceux qui n’en ont pas) et dont les dates de softDelete (deleted_at) sont NULL.</p>
-          <p>c/ Ecrivez la requête qui permet de récupérer un séjour qui a une prédiction et dont la date de sortie (end_date) est comprise entre le début et la fin de cette année et dont les dates de softDelete (deleted_at) sont NULL, limiter le nombre de résultat à 50.</p>
-          <p>d/ Ecrivez la requête qui permet de récupérer les identifiants de séjour (stay_id) qui ont au moins 2 documents et dont les dates de softDelete (deleted_at) sont NULL.</p>
-          <p>e/ Ecrivez la requête qui permet de récupérer le nombre de documents moyen par séjour.</p>
-          <p>f/ Ecrivez la requête qui permet de récupérer les identifiants de séjour (stay_id) et les dates de séjour (start_date, end_date) qui ont un identifiant de séjour qui commence par 192 OU qui qui ont une date de sortie avant la fin de cette année et dont les dates de softDelete (deleted_at) sont NULL.</p>
-        </div>
-      
-        <div class="blog-post">
-          <h3>2. Architecture SQL</h3>
-          <img class="thumbnail" src="images/schema-sql-colonne.jpg">
-          <p>
-            <pre>  SELECT first_name,last_name,gender,ipp FROM patient WHERE gender = ‘male’;</pre>
-            <br>
-            Considérant le schéma et la requête ci-dessus, quelles optimisations sont possibles pour améliorer la rapidité de la requête.
-          </p>
-        </div>
-      
-        <div class="blog-post">
-          <h3>3. Ecrivez une liste d'optimisations SQL</h3>
-        </div>
+        
       </div>
       
       <div class="medium-3 columns" data-sticky-container>
         <div class="sticky" data-sticky data-anchor="content">
           <h4>Categories</h4>
           <ul>
-            <li><a href="#php">PHP</a></li>
-            <li><a href="#sql">SQL</a></li>
+              <li><a href="#sql">SQL</a></li>
+              <li><a href="#php">PHP</a></li>            
           </ul>
         </div>
       </div>
