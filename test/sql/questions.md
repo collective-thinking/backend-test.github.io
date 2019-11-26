@@ -2,7 +2,7 @@
 
 ## 1. Requêtages SQL
 
-![]( ../../../images/schema-sql.jpg)
+![]( ../../images/schema-sql.jpg)
 
 A. Ecrivez la requête qui permet de récupérer les séjours qui ont des prédictions ordonnées par leur score décroissant et dont les dates de softDelete (deleted_at) sont NULL.
 
@@ -19,10 +19,8 @@ F. Ecrivez la requête qui permet de récupérer les identifiants de séjour (st
 
 ## 2. Architecture SQL
 
-![]( ../../../images/schema-sql-colonne.jpg)
+![]( ../../images/schema-sql-colonne.jpg)
 <pre>
 SELECT first_name,last_name,gender,ipp FROM patient WHERE gender = 'male';
 </pre>
 Considérant le schéma et la requête ci-dessus, quelles optimisations sont possibles pour améliorer la rapidité de la requête.
-
-## 3. Ecrivez une liste d'optimisations générique SQL

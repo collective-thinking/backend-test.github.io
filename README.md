@@ -1,15 +1,43 @@
 # Test de recrutement backend
 
-Fork le repository
+Fork le repository 
 
 
-Le but est de ne pas dépasser 1h30. Il se découpe en deux parties, l'une en PHP, l'autre en Mysql respectivement séparées au sein du dossier test.
+La partie quesions se découpe en deux parties disposées dans le dossier `test/`: 
+ - L'une en PHP, dans laquelle vous devez répondre au questions présentes dans questions.md
+  dans le fichier answer.txt.
+ - L'autre en MySQL. Ici aussi, il faut répondre aux questions présentes questions.md dans answer.txt
 
-Dans la partie question PHP vous devez répondre dans le fichier answer.txt.
+De plus, il y a une partie pratique PHP dans `test/php/exercices/`.
+Chaque exercice est dans son dossier respectif, il comprend : 
+- un fichier README.md qui contient l'énoncé de l'exercice 
+- un fichier .php dans lequel vous écrirez la solution de l'exercice.
+- un fichier .php de test. Il est en effet possible de tester la solution grâce à ce fichier
+ (procédure ci dessous) mais cela n'est pas obligatoire.
 
-Dans la partie pratique PHP, vous devez écrire votre solution dans le fichier PHP. Il est possible de tester la solution grâce au fichier de test.
 
+**Le but ici est de faire 3 exercices de votre choix parmis ceux proposés**
 
-Une fois effectué envoyez l'url de votre fork à tech@collective-thinking.com.
+**La durée de ce test ne devrait pas dépasser 1h30**
+
+Une fois le test effectué, envoyez l'url de votre fork à tech@collective-thinking.com.
 
 Bonne chance ;)
+
+-------------------------------
+## Running the tests for problem solving exercices 
+###### Not mandatory
+
+
+1. Get [PHPUnit] if you don't have it already.
+
+        % wget --no-check-certificate https://phar.phpunit.de/phpunit.phar
+        % chmod +x phpunit.phar
+
+2. Execute the tests:
+
+        % ./phpunit.phar bob/bob_test.php
+
+[PHPUnit]: http://phpunit.de
+
+
