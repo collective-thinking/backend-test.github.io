@@ -18,7 +18,7 @@ Chaque exercice est dans son dossier respectif, il comprend :
 
 ## Important
 
-**Le but ici est de faire 3 exercices de votre choix parmi ceux proposés**
+**En plus des questions théoriques, le but est de faire 3 exercices de votre choix parmi ceux proposés**
 
 **La durée de ce test ne devrait pas dépasser 1h30**
 
