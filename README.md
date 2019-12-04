@@ -1,45 +1,34 @@
-# Test de recrutement backend
+# Backend tech skills test
 
-Fork le repository 
+This test is divided in 3 parts:
+  - PHP: questions to test your knowledge of the language and OOP.
+  - SQL: query writing, general knowledge...
+  - Practice: 3 exercises. (2 algorithms, 1 about OOP) 
 
+**There is no time limit.**
 
-La partie questions se découpe en deux parties disposées dans le dossier `test/`: 
- - L'une en PHP, dans laquelle vous devez répondre au questions présentes dans questions.md
-  dans le fichier answer.txt.
- - L'autre en MySQL. Ici aussi, il faut répondre aux questions présentes questions.md dans answer.txt
+_Estimated time to complete the test: 1h 30min_
 
-De plus, il y a une partie pratique PHP dans `test/php/exercices/`.
-Chaque exercice est dans son dossier respectif, il comprend : 
-- un fichier README.md qui contient l'énoncé de l'exercice 
-- un fichier .php dans lequel vous écrirez la solution de l'exercice.
-- un fichier .php de test. Il est en effet possible de tester la solution grâce à ce fichier
- (procédure ci dessous) mais cela n'est pas obligatoire.
+### How-to
 
+ 1. [Fork this repository](https://github.com/collective-thinking/backend-test.github.io/fork)
+ 2. Edit the files with your answers and exercises solutions
+ 3. Commit and push your changes
+ 4. Send the link to your repository to tech@collective-thinking.com
+ 
+***Answering questions***
 
-## Important
+Edit `questions.md` files in the `./php` and `./sql` folders.
 
-**En plus des questions théoriques, le but est de faire 3 exercices de votre choix parmi ceux proposés**
+For multiple choice questions, replace `[ ]` with `[x]` to mark your answer.
 
-**La durée de ce test ne devrait pas dépasser 1h30**
+***Exercises***
 
-Une fois le test effectué, envoyez l'url de votre fork à tech@collective-thinking.com.
+Exercises are located in `.php/exercises`.
 
-Bonne chance ;)
+Instructions are in the `README.me`.
 
--------------------------------
-## Running the tests for problem solving exercices 
-###### Not mandatory
+For the first two exercises, a php file skeleton exists with the methods to implement.
 
-
-1. Get [PHPUnit] if you don't have it already.
-
-        % wget --no-check-certificate https://phar.phpunit.de/phpunit.phar
-        % chmod +x phpunit.phar
-
-2. Execute the tests:
-
-        % ./phpunit.phar bob/bob_test.php
-
-[PHPUnit]: http://phpunit.de
-
-
+The third exercise is about OOP design and SOLID principles.
+It only contains the instructions. You have to design your own solution from scratch.
