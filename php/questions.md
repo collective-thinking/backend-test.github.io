@@ -27,11 +27,11 @@ $c = $b;
   - [ ] 2
   - [ ] 3
 
-## 3. What is are the output of the following snippets?
+## 3. What is the output of the following snippets?
 
 A.
 ```php 
-$arr = [3, 0];
+$arr = [3, 1];
 foreach ($arr as $item) {
     $item++;
 }
@@ -39,7 +39,7 @@ $nb = (int) implode('', $arr);
 echo $nb;
 ```
 
-**Answer:**
+**Answer:** ?
 
 B.
 ```php
@@ -49,7 +49,7 @@ $b = "4{$b}";
 echo $a . ',' . $b++;
 ```
 
-**Answer:**
+**Answer:** ?
 
 ## 4. Which PHP code snippet shows an example of Dependency Injection?
 

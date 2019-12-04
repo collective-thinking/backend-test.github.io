@@ -2,8 +2,12 @@
 
 This test is divided in 3 parts:
   - PHP: questions to test your knowledge of the language and OOP.
-  - SQL: query writing, knowledge...
-  - Practice: with 3 exercises. (2 algorithms, 1 about OOP) 
+  - SQL: query writing, general knowledge...
+  - Practice: 3 exercises. (2 algorithms, 1 about OOP) 
+
+**There is no time limit.**
+
+_Estimated time to complete the test: 1h 30min_
 
 ### How-to
 
@@ -24,7 +28,7 @@ Exercises are located in `.php/exercises`.
 
 Instructions are in the `README.me`.
 
-For the first two exercises, the php file skeleton already exists with the methods to implement.
+For the first two exercises, a php file skeleton exists with the methods to implement.
 
 The third exercise is about OOP design and SOLID principles.
 It only contains the instructions. You have to design your own solution from scratch.

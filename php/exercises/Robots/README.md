@@ -36,4 +36,4 @@ every existing robot has a unique name.
 You can create as many files, classes, methods... as you want. (in this folder)
 Make your solution as elegant and maintainable as possible, following the **SOLID** principles.
 
-**Bonus:** Add unit tests to your solutions.
+**Bonus:** Add unit tests to your solution.
