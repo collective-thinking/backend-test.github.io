@@ -41,7 +41,7 @@ Based on the SQL diagram above, write the following queries:
 # Answer here
 ```
 
-**F.** Get authors, sorted by the date of their latest event.
+**F.** Get authors, sorted by the date of their **latest** event.
 
 **Answer:**
 ```mysql
