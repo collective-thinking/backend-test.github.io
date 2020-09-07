@@ -1,13 +1,12 @@
 # Backend tech skills test
 
+## There is no time limit
+
 This test is divided in 3 parts:
   - PHP: questions to test your knowledge of the language and OOP.
   - SQL: query writing, general knowledge...
   - Practice: 3 exercises. (2 algorithms, 1 about OOP) 
 
-**There is no time limit.**
-
-_Estimated time to complete the test: 1h 30min_
 
 ### How-to
 
